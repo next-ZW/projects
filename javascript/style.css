@@ -1,17 +1,25 @@
+
+#images {
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+grid-gap: 10px;
+justify-content: center;
+align-content: center;
+height: 100vh;
+}
+
 .card {
-    width: 100px;
-    height: 100px;
-    background-color: #eaeaea;
-    margin: 5px;
-    display: inline-block;
-    cursor: pointer;
-  }
-  
-  .card.flipped {
-    background-color: #ccc;
-  }
-  
-  .card.matched {
-    background-color: #8bc34a;
-  }
-  
+width: 100px;
+height: 100px;
+margin: 5px;
+cursor: pointer;
+background-color: #ccc;
+background-size: cover;
+background-position: center;
+transition: background-image 0.3s;
+}
+
+.revealed {
+background-color: #fff;
+}
+
