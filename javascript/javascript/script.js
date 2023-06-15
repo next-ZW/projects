@@ -1,0 +1,1 @@
+var images = ['garnaal.png', 'kreeft.png', 'kwal.png', 'schildpad.png', 'whale.png','ster.png'];

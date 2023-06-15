@@ -4,11 +4,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Memory</title>
+  <title>Image gallery</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="images"></div>
   <script src="script.js"></script>
+
+  <div class="img-box">
+    <img src="images/garnaal.png" class="slider-img">
+  </div>
+
+  <div class="img-box">
+    <button onclick="changefoto(this)">Previous</button>
+    <button onclick="changefoto(this)">Next</button> 
+  </div>
+
 </body>
 </html>
