@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Image gallery</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <script src="script.js"></script>
+	<head>
+		<meta charset="UTF-8">
+		<title>Javascript Image Slider</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
 
-  <div class="img-box">
-    <img src="images/garnaal.png" class="slider-img">
-  </div>
+			<div class="img-box">
+				<img src="images/4.png" class="img">
+			</div>
 
-  <div class="img-box">
-    <button onclick="changefoto(this)">Previous</button>
-    <button onclick="changefoto(this)">Next</button> 
-  </div>
+			<button class="button" onclick="previous()">Previous</button>
+			<button class="button" onclick="next()">Next</button>
+		</div>
 
-</body>
+		<script src="script.js"></script>
+
+	</body>
 </html>

@@ -1,2 +1,8 @@
+body{
+    text-align: center;
+}
 
-
+.button{
+    width: 250px;
+    height: 200px;
+}
